@@ -1,7 +1,7 @@
 # network-ninja - A network TShoot Docker image
 A Docker image which contains multiple helpful network troubleshooting packages. We use this image inside GNS3 labs.
 
-Intalled packages are:
+Installed packages:
 ```bash
 tcpdump htop nmap net-tools curl wget vim iperf3 dnsutils tshark iproute2 iputils-ping isc-dhcp-client apache2
 ```
