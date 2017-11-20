@@ -2,6 +2,8 @@ FROM ubuntu:16.04
 
 LABEL maintainer="docker@ins.hsr.ch"
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update && apt-get install -y \
     tcpdump \
     htop \
