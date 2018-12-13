@@ -1,6 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
-LABEL maintainer="docker@ins.hsr.ch"
+LABEL maintainer="Philip Schmid <docker@ins.hsr.ch>"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
