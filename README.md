@@ -12,3 +12,19 @@ static: `ip addr add 10.10.10.10/24 dev eth0`
 dynamic: `dhclient eth0`
 
 Set default gateway: `ip route add default via 10.10.10.1`
+
+So simulate a running service on a specific port (e.g. HTTP or DNS):
+```bash
+# For HTTP(80/TCP):
+nc -l -p 80
+# For DNS (53/UDP):
+nc -u -l -p 53
+```
+
+To access services on specific ports:
+```bash
+# For HTTP(80/TCP):
+nc <ip-of-server> 80
+# For DNS (53/UDP):
+nc -u <ip-of-server> 53
+```
