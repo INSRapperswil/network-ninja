@@ -3,7 +3,7 @@ A Docker image which contains multiple helpful network troubleshooting packages.
 
 Installed packages:
 ```bash
-tcpdump htop nmap net-tools curl wget vim iperf3 dnsutils tshark iproute2 iputils-ping isc-dhcp-client apache2 traceroute
+tcpdump htop nmap net-tools curl wget vim iperf3 dnsutils tshark iproute2 iputils-ping isc-dhcp-client apache2 traceroute netcat
 ```
 
 Please use one of the following commands to configure the container an IP address:

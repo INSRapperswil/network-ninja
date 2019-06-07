@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
     iputils-ping \
     isc-dhcp-client \
     apache2 \
-    traceroute
+    traceroute \
+    netcat
 
 CMD [ "/bin/bash" ]
