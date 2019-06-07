@@ -22,6 +22,9 @@ nc -l -p 80
 # For DNS (53/UDP):
 nc -u -l -p 53
 ```
+**Please note**: `nc -l` is a blocking command. You can exit by using `Ctrl+c`.
+
+After you started the `nc` server instance, use the following commands to connect to this instance and write some text. This text should now be printed to the console STDOUT on the server side.
 
 To access services on specific ports:
 ```bash
