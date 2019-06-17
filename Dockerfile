@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
     isc-dhcp-client \
     apache2 \
     traceroute \
-    netcat
+    netcat \
+    openssh-server
 
 CMD [ "/bin/bash" ]
