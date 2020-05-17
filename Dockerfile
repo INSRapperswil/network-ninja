@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y \
     traceroute \
     netcat \
     openssh-server \
+    snmp \
     snmpd
 
 CMD [ "/bin/bash" ]
