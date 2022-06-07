@@ -1,0 +1,5 @@
+services:
+  ninja:
+    image: hsrnetwork/ninja:latest
+    hostname: ninja.example.com
+    restart: unless-stopped

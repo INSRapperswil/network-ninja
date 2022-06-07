@@ -1,4 +1,4 @@
-# network-ninja - A network TShoot Docker Image
+# ninja - A network TShoot Docker Image
 A Docker image which contains multiple helpful network troubleshooting packages. We use this image inside GNS3 labs.
 
 Installed packages:
